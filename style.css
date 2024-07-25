@@ -1,0 +1,370 @@
+* {
+    /* font-size: 13px; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(img/top\ header.png);
+    background-size: cover;
+    justify-content: space-around;
+} 
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: #5AFF57;
+}
+
+.inputTxt{
+    display: flex;
+}
+
+.inputTxt img {
+    border-radius: 0 3px 3px 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.inputTxt img{
+    padding: 10px;
+    background-color: #5AFF57;
+    border: none;
+}
+
+.inputTxt_txt{
+    padding: 10px;
+    background-color: #5AFF57;
+}
+
+.hd_grow {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+
+.hd_grow_2 {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+span {
+    color: #5AFF57;
+}
+
+.body2 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 170px;
+    justify-content: space-between;
+}
+
+.dual_input {
+    padding-top: 30px;
+}
+
+.blur_view {
+    color: #fff;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+.bv_txt {
+    display: flex;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.bv_txt img {
+    height: 15px;
+    width: 15px;
+    right: 5px;
+}
+
+.btn {
+    background-color: #5AFF57;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 95px;
+    margin-top: 4px 2px;
+    font-size: 16px;
+}
+
+/* Section 1 */
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+table p {
+    font-size: 15px;
+}
+
+table h3 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+table .wcgb_img {
+    height: 80vh;
+    border-radius: 30px;
+}
+
+td {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.t_btn {
+    background-color: #53C351;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    justify-content: flex-end;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 20px 60px;
+    margin-top: 2px 2px;
+    margin-left: 40%;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Section 2 */
+
+#fp_1 {
+    /* align-items: center; */
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.fp_1 .img_1{
+    background-color: #D9D9D9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fp_1 .btn {
+    background-color: #53C351;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 100px;
+    margin-top: 4px 2px;
+    font-size: 16px;
+}
+
+/* Section 3 */
+.wcs_1 p {
+    text-align: center;
+}
+
+/* Section 4 */
+.win_up {
+    background: url(img/image\ 14.png);
+}
+
+.wu_p {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.wu_btn {
+    background-color: #C3EF3C;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    justify-content: flex-end;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 40px;
+    margin-left: 45%;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.win_up2 {
+    background-color: #1C3A27;
+    color: #fff;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 30px;
+}
+
+.bn_btn {
+    background-color: #86D72F;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 50px;
+    margin-top: 4px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.get_started {
+    background-color: #fff; 
+    border-radius: 10px; 
+    color: #000; 
+    padding-bottom: 10px;
+}
+
+.get_started_h3 {
+    background-color: #86D72F; 
+    border-radius: 10px 10px 0 0; 
+    text-align: center;
+    padding-top: 10px;
+}
+
+.get_started p {
+    padding-bottom: 10px;
+}
+
+.s_btn {
+    background-color: #86D72F;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 50px;
+    margin-top: 4px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.ex_1 {
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ex_2 {
+    border-style: solid;
+    border-color: #1C3A27;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.blog_btn {
+    background-color: #fff;
+    border-style: #000;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 50px;
+    margin-top: 40px;
+    margin-left: 42%;
+    font-size: 15px;
+    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.company p {
+    padding-top: 10px;
+}
+
+.products p {
+    padding-top: 10px;
+}
+
+.contact p {
+    padding-top: 10px;
+}
+
+.footer {
+    background-color: #1C3A27;
+    color: #fff;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms p {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.wuz_btn {
+    background-color: #53C351;
+    border: none;
+    border-radius: 3px;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
