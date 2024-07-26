@@ -15,6 +15,7 @@ header {
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 20px;
 } 
 
 nav {
@@ -25,6 +26,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    flex-wrap: wrap;
 }
 
 .menu a {
@@ -40,6 +42,8 @@ nav {
 
 .inputTxt {
     display: flex;
+    align-items: center;
+    margin-top: 10px;
 }
 
 .inputTxt img {
@@ -49,7 +53,7 @@ nav {
 input {
     padding: 10px;
     border-radius: 3px 0 0 3px;
-    width: calc(100% - 40px);
+    width: 100%;
 }
 
 .inputTxt img {
@@ -63,14 +67,12 @@ input {
     color: #fff;
     font-weight: 700;
     margin: 50px 0 20px;
-    text-align: center;
 }
 
 .hd_grow_2 {
     font-size: 1.25rem;
     color: #fff;
     margin: 20px 0;
-    text-align: center;
 }
 
 span {
@@ -93,6 +95,9 @@ span {
     color: #fff;
     backdrop-filter: blur(20px);
     border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .bv_txt {
@@ -124,8 +129,9 @@ span {
 /* Section 1 */
 
 table {
-    margin: 50px auto;
-    width: 90%;
+    width: 100%;
+    margin: 50px 0;
+    border-spacing: 20px;
 }
 
 table p {
@@ -144,7 +150,7 @@ table .wcgb_img {
 }
 
 td {
-    padding: 30px;
+    padding: 20px;
 }
 
 .t_btn {
@@ -169,12 +175,14 @@ td {
     flex-direction: column;
     justify-content: space-around;
     margin: 50px 20px;
+    width: 100%;
 }
 
 .fp_1 .img_1 {
     background-color: #D9D9D9;
     padding: 20px;
     border-radius: 10px;
+    width: 100%;
 }
 
 .fp_1 .btn {
@@ -194,17 +202,19 @@ td {
 /* Section 3 */
 .wcs_1 p {
     text-align: center;
+    padding: 20px;
 }
 
 /* Section 4 */
 .win_up {
     background: url(img/image\ 14.png) no-repeat center center;
     background-size: cover;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .wu_p {
     color: #fff;
-    text-align: center;
     font-size: 1.875rem;
     padding: 50px 0;
 }
@@ -250,12 +260,13 @@ td {
     border-radius: 10px; 
     color: #000; 
     padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .get_started_h3 {
     background-color: #86D72F; 
     border-radius: 10px 10px 0 0; 
-    text-align: center;
     padding: 10px;
 }
 
@@ -291,6 +302,8 @@ td {
     border: solid 2px #1C3A27;
     border-radius: 20px;
     padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .blog_btn {
@@ -320,8 +333,9 @@ td {
 
 .terms {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
@@ -345,32 +359,32 @@ td {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        height: auto;
-    }
-
+@media (min-width: 768px) {
     .body2, .ex_1 {
-        flex-direction: column;
-        padding: 20px;
+        flex-direction: row;
+        padding: 30px 110px;
     }
 
-    .hd_grow, .hd_grow_2 {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .t_btn, .wu_btn, .s_btn, .bn_btn {
-        width: 100%;
+    .blur_view {
+        margin-bottom: 30px;
+        width: 80%;
     }
 
     .terms {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     table {
-        width: 100%;
-        margin: 20px 0;
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .t_btn, .wu_btn, .s_btn, .bn_btn {
+        width: auto;
+    }
+
+    .blog_btn {
+        margin-left: 0;
     }
 }
